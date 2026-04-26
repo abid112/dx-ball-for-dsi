@@ -1,0 +1,17 @@
+# Build output
+build/
+*.elf
+*.map
+*.o
+*.d
+*.bin
+*.arm9
+*.arm7
+
+# Intermediate .nds files are ignored, but the canonical release ROM
+# (dxball.nds) is tracked so people can clone-and-play without a toolchain.
+*.nds
+!dxball.nds
+
+# macOS junk
+.DS_Store
