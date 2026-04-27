@@ -72,10 +72,8 @@ static const u8 font5x7[128][7] = {
 
 /* Bottom-of-screen credit. */
 #define CREDIT_SCALE   1
-#define CREDIT_LINE1   "Developed by Abid Hasan."
-#define CREDIT_LINE2   "His first Dsi game built with <3."
-#define CREDIT_LINE1_Y 172
-#define CREDIT_LINE2_Y 181
+#define CREDIT_TEXT    "Developed by Abid Hasan."
+#define CREDIT_Y       180
 
 static int sLastScore = -1;
 
@@ -133,9 +131,8 @@ static void clearScoreRect(u16 *bg)
 static void drawCredit(u16 *bg)
 {
     /* Slightly dimmer than pure white so it sits behind the score visually. */
-    const u16 color = ARGB16(1, 22, 22, 22);
-    drawTextCentered(bg, CREDIT_LINE1, CREDIT_LINE1_Y, CREDIT_SCALE, color);
-    drawTextCentered(bg, CREDIT_LINE2, CREDIT_LINE2_Y, CREDIT_SCALE, color);
+    const u16 color = ARGB16(1, 28, 28, 28);
+    drawTextCentered(bg, CREDIT_TEXT, CREDIT_Y, CREDIT_SCALE, color);
 }
 
 void scoreInit(void)
