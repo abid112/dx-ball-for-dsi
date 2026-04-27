@@ -7,12 +7,11 @@ project, with `<3`.
 > Top screen = gameplay. Bottom screen = score (and a quiet credit line at the
 > very bottom).
 
-## Screenshots
+## Screenshot
 
-> _If you'd like, drop a melonDS screenshot or short GIF in `screenshots/` and
-> reference it here — e.g._
->
-> `![DX-Ball DS running in melonDS](screenshots/melonds.png)`
+<p align="center">
+  <img src="screenshots/dx-ball-dsi.png" alt="DX-Ball DSi running in melonDS — top screen shows the brick wall, paddle and 'PRESS A TO LAUNCH' prompt; bottom screen shows the large score and 'Developed by Abid Hasan.' footer" width="360">
+</p>
 
 ## Features
 
